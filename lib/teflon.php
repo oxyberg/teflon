@@ -58,7 +58,7 @@
 			}
 		}
 		
-		// delete item (directory)
+		// delete item
 		public function delete ($item, $table) {
 			$this->statusCODE = 0;
 			$this->statusMSG = array ();
@@ -100,7 +100,7 @@
 			else {return false;}
 		}
 		
-		// get data from item (directory)
+		// get data from item
 		public function get ($select = '*', $item, $table) {
 			$this->statusCODE = 0;
 			$this->statusMSG = array ();
